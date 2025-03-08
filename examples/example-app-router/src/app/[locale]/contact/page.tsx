@@ -19,7 +19,7 @@ export default function Contact()  {
 
     const [emailSent, setEmailSent] = useState(false);
 
-    async function formAction(formData) {
+    async function formAction(formData:FormData) {
 
         sendEmail(Object.fromEntries(formData));
         setEmailSent(true)
@@ -35,7 +35,7 @@ export default function Contact()  {
 
 
     return (
-        <Form action={formAction} className="w-full container">
+        <Form action={formAction} className="w-full">
             <div className="flex justify-center italic text-lg mt-10 mb-10 lg:mt-5 lg:mb-5">
                 <h2 className="text-center text-sm lg:text-lg md:pl-12 lg:pr-14">
                     {t("form.contact_me")}
@@ -99,7 +99,7 @@ export default function Contact()  {
                     <label className="text-center" htmlFor="message">{t("form.text")} :</label>
                     <textarea
                         {...register("message")}
-                        rows="10"
+                        rows={10}
                         className="rounded-xl"
                         placeholder={t("form.your_message")}
                     />
