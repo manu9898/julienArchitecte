@@ -1,0 +1,86 @@
+{
+  "language": {
+    "fr": "FR",
+    "en": "EN"
+  },
+  "welcome": "Bienvenue",
+  "hello": "Bonjour",
+  "navbar": {
+    "title": "JULIEN BLATTEAU ARCHITECTE",
+    "subtitle": "architecture participative, matériaux écologiques",
+    "projects": "Projets",
+    "presentation": "Présentation",
+    "contact": "Contact"
+  },
+  "form": {
+    "name": "Nom",
+    "first_name": "Prénom",
+    "email": "Email",
+    "email_required": "Votre email est requis",
+    "object": "Objet",
+    "text": "Texte",
+    "contact_me": "Pour toute demande, veuillez me contacter par email",
+    "your_name" : "Votre nom",
+    "your_first_name": "Votre prénom",
+    "your_email" : "Votre email",
+    "your_object": "Quel est l'objet de cet email ?",
+    "your_message": "Votre message",
+    "sent" : "envoyer",
+    "success" : "Email envoyé avec succès !",
+    "thanks_for_your_message" : "Merci pour votre message, nous vous répondrons bientôt.",
+    "back_to_main_page": "Retour à la page principale"
+
+  },
+  "footer": {
+    "about_me": "À propos",
+    "location": "Localisation",
+    "architect": "architecte"
+  },
+  "Error": {
+    "description": "<p>Nous avons malheureusement rencontré une erreur.</p><p>Vous pouvez essayer de <retry>recharger la page</réessayer> que vous visitiez.</p> »",
+    "title": "Quelque chose n'a pas fonctionné !"
+  },
+  "IndexPage": {
+    "description": "Ceci est un exemple basique qui démontre l'utilisation de <code>next-intl</code> avec le Next.js App Router. Essayez de changer la locale dans le coin supérieur droit et voyez comment le contenu change",
+    "title": "exemple next-intl"
+  },
+  "LocaleLayout": {
+    "title": "exemple next-intl"
+  },
+  "LocaleSwitcher": {
+    "label": "Changement de language",
+    "locale": "{locale, select, fr {\uD83C\uDDEB\uD83C\uDDF7 Français} en {🇺🇸 English} other {autres}}"
+  },
+  "Manifest": {
+    "name": "next next-intl"
+  },
+  "Navigation": {
+    "home": "Accueil",
+    "pathnames": "Chemin",
+    "projects" : "Projets",
+    "Presentation": "Présentation",
+    "Contact": "contact"
+  },
+  "NotFoundPage": {
+    "description": "Veuillez vérifier la barre d'adresse du navigateur ou utiliser la navigation pour accéder à une page connue.",
+    "title": "Page non trouvée"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "description": "En savoir plus sur next-intl dans la documentation officielle.",
+        "href": "https://next-intl.dev",
+        "title": "Documentation"
+      },
+      "source": {
+        "description": "Consultez le code source de cet exemple sur GitHub.",
+        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
+        "title": "Source code"
+      }
+    }
+  },
+  "PathnamesPage": {
+    "description": "<p>Les noms de chemin sont également internationalisés.</p><p>Si vous utilisez la langue Française par défaut, vous verrez <code>/fr/chemin</code> dans la barre d'adresse du navigateur sur cette page.</p><p>Si vous changez la locale en Anglais, l'URL est localisée en conséquence (<code>/en/pfadnamen</code>).</p>",
+    "title": "Chemin"
+  }
+}
