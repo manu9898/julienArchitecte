@@ -83,8 +83,11 @@ export const NavBar = () => {
             <Link href="/" className="text-md font-extrabold hover:text-gray-500 italic">
               {t("navbar.projects")}
             </Link>
-            <Link href={`/${locale}/presentation`} className="text-md font-extrabold hover:text-gray-500 italic">
-              {t("navbar.presentation")}
+            <Link href={`/${locale}/infos`} className="text-md font-extrabold hover:text-gray-500 italic">
+              {t("navbar.news")}
+            </Link>
+            <Link href={`/${locale}/demarche`} className="text-md font-extrabold hover:text-gray-500 italic">
+              {t("navbar.approach")}
             </Link>
             <Link href={`/${locale}/contact`} className="text-md font-extrabold hover:text-gray-500 italic">
               {t("navbar.contact")}
@@ -114,7 +117,7 @@ export const NavBar = () => {
             {t("navbar.projects")}
           </Link>
           <Link href={`/${locale}/presentation`} className="text-md font-extrabold hover:text-gray-500 italic">
-            {t("navbar.presentation")}
+            {t("navbar.approach")}
           </Link>
           <Link href={`/${locale}/contact`} className="text-md font-extrabold hover:text-gray-500 italic">
             {t("navbar.contact")}
