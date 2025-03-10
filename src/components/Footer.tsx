@@ -24,7 +24,7 @@ export default function Footer () {
                 {/* Liste des liens */}
                 <ul className="flex flex-wrap items-center mt-3 sm:mt-0 text-sm text-neutral-600 sm:justify-end">
                     <li>
-                        <Link href={`/${locale}/presentation`}  className="hover:underline me-4 md:me-6">{t("footer.about_me")}</Link>
+                        <Link href={`/${locale}/infos`}  className="hover:underline me-4 md:me-6">{t("footer.about_me")}</Link>
                     </li>
                     <li>
                         <Link href={`/${locale}/localisation`} className="hover:underline me-4 md:me-6">{t("footer.location")}</Link>
