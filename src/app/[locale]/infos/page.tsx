@@ -7,10 +7,10 @@ export default function Presentation() {
 
   const t = useTranslations();
   return (
-    <section className="lg:min-h-[calc(100vh-208px)] lg:my-6 my-20 mx-20">
+    <section className="lg:min-h-[calc(100vh-208px)] lg:my-6 my-20 mx-0 lg:mx-20">
       <div className="flex justify-center w-full items-stretch gap-20 flex-wrap mb-20">
         <div className="2xl:w-1/2 max-w-[500px] flex flex-col justify-between">
-          <div className="bg-white z-10 flex flex-col justify-between h-full p-10 rounded-3xl">
+          <div className="bg-white z-10 flex flex-col justify-between h-full p-10 rounded-none sm:rounded-3xl">
             <h2 className="underline pb-10">Julien Blatteau</h2>
             <p className="max-w-[500px] text-xl leading-8 flex-grow">
               {t('infos.registered_architect')}.{t('infos.i_live_in_marseille')},{t('infos.freelance')}.
@@ -24,7 +24,7 @@ export default function Presentation() {
           <Image
             src="/assets/pictures/diapoPresentation/PRESENTATION_01.jpg"
             alt="Julien Blatteau"
-            className="object-cover w-full h-full rounded-3xl"
+            className="object-cover w-full h-full rounded-none sm:rounded-3xl"
             loading="lazy"
             width={500}
             height={500}

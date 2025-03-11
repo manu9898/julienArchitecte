@@ -31,7 +31,7 @@ export const NavBar = () => {
   };
 
   return (
-    <section className="2xl:text-xl">
+    <section className="2xl:text-xl mt-5 lg:mt-0">
       <nav className="relative bg-[#ffe6e5]">
         {/* Conteneur principal */}
         <div className="flex justify-between items-center px-4 lg:px-8">
@@ -70,10 +70,10 @@ export const NavBar = () => {
 
           {/* Titre centré */}
           <div className="text-center flex-grow lg:pl-20">
-            <h1 className="font-extrabold italic text-xl pl:10 lg:text-lg lg:pl-0">
+            <h1 className="font-extrabold italic text-xl mx-5 lg:text-lg lg:mx-0">
               {t("navbar.title")}
             </h1>
-            <p className="text-sm pl:10 lg:text-lg lg:pl-0">
+            <p className="text-sm px-1 lg:text-lg lg:pl-0">
               {t("navbar.subtitle")}
             </p>
           </div>
@@ -116,7 +116,10 @@ export const NavBar = () => {
           <Link href="/" className="text-md font-extrabold hover:text-gray-500 italic">
             {t("navbar.projects")}
           </Link>
-          <Link href={`/${locale}/presentation`} className="text-md font-extrabold hover:text-gray-500 italic">
+          <Link href={`/${locale}/infos`} className="text-md font-extrabold hover:text-gray-500 italic">
+            {t("navbar.news")}
+          </Link>
+          <Link href={`/${locale}/demarche`} className="text-md font-extrabold hover:text-gray-500 italic">
             {t("navbar.approach")}
           </Link>
           <Link href={`/${locale}/contact`} className="text-md font-extrabold hover:text-gray-500 italic">

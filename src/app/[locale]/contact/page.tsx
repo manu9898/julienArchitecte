@@ -37,7 +37,7 @@ export default function Contact()  {
     return (
         <Form action={formAction} className="w-full">
             <div className="flex justify-center italic text-lg mt-10 mb-10 lg:mt-5 lg:mb-5">
-                <h2 className="text-center text-sm lg:text-lg md:pl-12 lg:pr-14">
+                <h2 className="text-center text-sm mx-5 lg:mx-0 lg:text-lg md:pl-12 lg:pr-14">
                     {t("form.contact_me")}
                 </h2>
             </div>

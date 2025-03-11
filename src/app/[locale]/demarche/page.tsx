@@ -9,8 +9,8 @@ export default function Presentation() {
   const t = useTranslations();
 
   return (
-    <section className="mx-5 md:mx-20 my-10">
-      <div className="mx-20">
+    <section className=" my-10">
+      <div className="mx-5 md:mx-20">
         <h1 className="italic text-3xl font-bold mb-10 lg:mb-0">{t("navbar.approach")}</h1>
 
         <div className="flex flex-wrap flex-col-reverse 2xl:flex-row">
