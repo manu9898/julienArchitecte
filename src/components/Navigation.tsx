@@ -5,8 +5,8 @@ import { useLocale, useTranslations } from 'next-intl';
 import { useRouter, usePathname } from 'next/navigation';
 
 export const NavBar = () => {
-  const locale = useLocale();  // Récupérer la locale actuelle
-  const t = useTranslations(); // Hook pour les traductions
+  const locale = useLocale();
+  const t = useTranslations();
   const [isOpen, setIsOpen] = useState(false); // State pour le menu burger
 
   const router = useRouter(); // Récupérer l'instance du routeur

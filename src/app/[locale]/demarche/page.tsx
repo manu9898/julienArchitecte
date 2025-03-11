@@ -1,29 +1,29 @@
 "use client";
 import React from 'react';
 import Image from "next/image";
+import { useTranslations } from 'next-intl';
+
 
 export default function Presentation() {
+
+  const t = useTranslations();
+
   return (
     <section className="mx-5 md:mx-20 my-10">
       <div className="mx-20">
-        <h1 className="italic text-3xl font-bold mb-10 lg:mb-0">Démarche</h1>
+        <h1 className="italic text-3xl font-bold mb-10 lg:mb-0">{t("navbar.approach")}</h1>
 
         <div className="flex flex-wrap flex-col-reverse 2xl:flex-row">
 
           <div className="w-full 2xl:w-1/2 min-w-0 flex flex-col justify-center">
             <h2 className="text-md bg-white rounded-xl py-1 px-1.5 underline mb-4 m-0 w-auto max-w-fit">
-              Un bien commun
+              {t('approach.a_shared_asset')}
             </h2>
             <p className="2xl:w-full text-xl leading-10 flex items-center md:text-center lg:text-left">
-              Pour proposer une architecture porteuse de sens, impliquer
-              les habitants et usagers dans la conception et la construction
-              de leurs projets. <br />
-              Pour des constructions pérennes, réfléchir ensemble aux
-              usages, à la mise en œuvre, à l’exploitation, l’entretien et la
-              vie du bâtiment. <br />
-              Pour construire le projet d’architecture comme un lieu de vie
-              commun, penser le partage entre les hommes cohabitants,
-              la faune et la flore.
+              {t('approach.to_propose_meaningful_architecture')}, {t('approach.involving_local_residents')} . <br />
+              {t('approach.for_sustainable_construction')}, {t('approach.thinking_about_uses')}, {t('approach.implementation')}, {t('approach.exploitation')}, {t('approach.building_maintenance')}. <br/>
+              {t('approach.to_build_the_architectural_project')}, {t('approach.think_of_sharing')},
+              {t('approach.flora_fauna')} .
             </p>
           </div>
 
@@ -65,23 +65,15 @@ export default function Presentation() {
 
           <div className="w-full 2xl:w-1/2 min-w-0 flex flex-col justify-center ">
             <h2 className="text-md bg-white rounded-xl py-1 px-1.5 underline mb-4 m-0 w-auto max-w-fit">
-              Une opportunité de partage
+              {t('approach.a_chance_to_share')}
             </h2>
             <p className="2xl:w-full text-xl leading-10 flex items-center md:text-center lg:text-justify">
-              Chaque projet soude une équipe pluridisciplinaire : c’est
-              un moment de rencontre entre des pratiques et des savoir-
-              faire. <br/>
-              L’acte de bâtir peut constituer le moment fédérateur d’une
-              communauté. C’est retrouver des pratiques d’entraide,
-              imaginer un projet d’architecture comme une opportunité de
-              partage et de médiation. <br/>
-              Impliquer les habitants/usagers, c’est intégrer des
-              ateliers de co-conception, des chantiers participatifs, de
-              l’accompagnement à auto-construction / auto-réhabilitation,
-              de la pédagogie. <br/>
-              Pour des projets engagés sur le participatif, l’expertise
-              de l’architecte se lie à des compétences de médiation et
-              d’évènementiel.
+              {t('approach.every-project')} : {t('approach.meeting')} . <br/>
+              {t('approach.the_act_of_building')} . {t('approach.mutual_support_practices')},
+              {t('approach.imagine_an_architectural_project')}. <br/>
+              {t('approach.involving_users')} , {t('approach.integrate_workshops')} , {t('approach.participative_worksites')}, {t('approach.self_build_support')},
+              {t('approach.pedagogy')}. <br/>
+              {t('approach.participatory_projects')}, {t('approach.architect_s_expertise')}.
             </p>
           </div>
         </div>
@@ -91,22 +83,17 @@ export default function Presentation() {
           {/* Texte */}
           <div className="w-full 2xl:w-1/2 min-w-0 flex flex-col justify-center">
             <h2 className="text-md bg-white rounded-xl py-1 px-1.5 underline mb-4 m-0 w-auto max-w-fit">
-              Un assemblage de matériaux et de savoir-faire
+              {t('approach.an_assembly_of_materials')}
             </h2>
             <p className="2xl:w-full text-xl leading-10 flex items-center md:text-center lg:text-left">
-              L’attention au détail et la sobriété fonde ma pratique.
-              C’est utiliser le bon matériau au bon endroit sans chercher
-              à révolutionner les méthodes constructives. <br/>
-              C’est employer les matériaux dans de justes proportions,
-              pour des projets riches en créativité mais sobre en dépense
-              d’énergie. <br/>
-              C’est soutenir à travers des choix architecturaux, des filières
-              qui ont parfois disparu ou sont diminuées par les effets de la
-              mondialisation. C’est faire le choix de l’artisanat, des circuits
-              courts. <br/>
-              C’est prioriser la filière bois local, la filière paille, la pierre
-              sèche, la terre, la fibre végétales ; et aussi la filière du
-              réemploi, et dans une moindre mesure celle du recyclage. <br/>
+              {t('approach.attention_to_detail')}.
+              {t('approach.use_the_right_material')}. <br/>
+              {t('approach.use_materials')},
+              {t('approach.rich_projects')}. <br/>
+              {t('approach.supporting_choices')},
+              {t("approach.disappearing_sectors")}. {t('approach.choice_of_craftwork')}, {t('approach.short_circuits')}. <br/>
+              {t('approach.prioritize_local_wood')}, {t('approach.the_straw_industry')}, {t('approach.dry_stone')},
+              {t('approach.the_ground')}, {t('approach.vegetable_fibers')}; {t('approach.reemployment')}, {t('approach.recycling')}. <br/>
             </p>
           </div>
 
@@ -140,16 +127,14 @@ export default function Presentation() {
 
           <div className="w-full 2xl:w-1/2 min-w-0 flex flex-col justify-center">
             <h2 className="text-md bg-white rounded-xl py-1 px-1.5 underline mb-4 m-0 w-auto max-w-fit">
-              Un accompagnant architecte
+              {t('approach.an_support_architect')}
             </h2>
             <p className="2xl:w-full text-xl leading-10 flex items-center md:text-center lg:text-justify">
-              L’architecte contemporain, c’est pour moi un métier
-              d’accompagnant à la construction. <br/>
-              Pour mettre en espace les idées, le narratif de chaque client.
-              Pour fédérer et coordonner des partenaires passionnés
-              pour chaque projet. <br/>
-              Pour créer les opportunités et les espaces afin de réfléchir
-              et construire ensemble un avenir désirable.
+              {t("approach.the_contemporary_architect")},
+              {t("approach.job_companion")}. <br/>
+              {t('approach.create_ideas')}, {t("approach.storytelling")}.
+              {t('approach.coordinate_partners')}. <br/>
+              {t('approach.create_opportunities')}.
             </p>
           </div>
         </div>

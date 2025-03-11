@@ -2,6 +2,7 @@
 import React from 'react';
 import Image from "next/image";
 
+
 export default function Presentation() {
   return (
     <section className="lg:min-h-[calc(100vh-208px)] lg:my-6 my-20 mx-20">
