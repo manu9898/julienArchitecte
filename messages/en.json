@@ -1,0 +1,173 @@
+{
+  "Error": {
+    "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>",
+    "title": "Something went wrong!"
+  },
+  "IndexPage": {
+    "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes.",
+    "title": "next-intl example"
+  },
+  "LocaleLayout": {
+    "title": "next-intl example"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} fr {🇫🇷 Français} other {❓ Unknown}}"
+  },
+  "Manifest": {
+    "name": "next-intl example"
+  },
+  "Navigation": {
+    "home": "Home",
+    "pathnames": "Pathnames",
+    "projects" : "Projects",
+    "Presentation": "Présentation",
+    "Contact" : "Contact"
+  },
+  "NotFoundPage": {
+    "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
+    "title": "Page not found"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "description": "Learn more about next-intl in the official docs.",
+        "href": "https://next-intl.dev",
+        "title": "Docs"
+      },
+      "source": {
+        "description": "Browse the source code of this example on GitHub.",
+        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
+        "title": "Source code"
+      }
+    }
+  },
+  "PathnamesPage": {
+    "description": "<p>The pathnames are internationalized too.</p><p>If you're using the default language English, you'll see <code>/en/pathnames</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is localized accordingly (<code>/de/pfadnamen</code>).</p>",
+    "title": "Pathnames"
+  },
+  "language": {
+    "fr": "FR",
+    "en": "EN"
+  },
+
+  "welcome": "Welcome",
+  "hello": "Hello",
+  "navbar": {
+    "title": "ARCHITECT JULIEN BLATTEAU",
+    "subtitle": "participatory architecture, ecological materials",
+    "projects": "Projects",
+    "approach": "Approach",
+    "news" : "News",
+    "contact": "Contact"
+  },
+  "approach": {
+    "a_shared_asset": "A shared asset",
+    "to_propose_meaningful_architecture": "To propose meaningful architecture",
+    "involving_local_residents": "involve residents and users in the design and construction of their projectsinvolve residents and users in the design and construction of their projects",
+    "for_sustainable_construction": "For sustainable construction",
+    "thinking_about_uses" : "thinking together about uses",
+    "implementation": "to implementation",
+    "exploitation": "to operations",
+    "building_maintenance": "maintenance and life of the building",
+    "to_build_the_architectural_project" : "To build the architectural project as a shared living space",
+    "think_of_sharing" : "thinking about sharing between cohabitants",
+    "flora_fauna": " flora and fauna",
+    "a_chance_to_share": "A sharing opportunity",
+    "every-project" : "Each project brings together a multidisciplinary team",
+    "meeting": "it's a meeting point for practices and know-how",
+    "the_act_of_building" : "The act of building can be a unifying moment for a community",
+    "mutual_support_practices" : "It's about rediscovering self-help practices",
+    "imagine_an_architectural_project": "imagine an architectural project as an opportunity for sharing and mediation",
+    "involving_users" : "Involving residents/users",
+    "integrate_workshops": "integrating co-design workshops",
+    "participative_worksites" : "participatory worksites",
+    "self_build_support": "self-build/self-rehabilitate support",
+    "pedagogy" : " of pedagogy",
+    "participatory_projects" : "For projects based on participation",
+    "architect_s_expertise" : "the architect's expertise is combined with mediation and events skills",
+    "an_assembly_of_materials" : "A blend of materials and know-how",
+    "attention_to_detail" : "Attention to detail and sobriety form the basis of my practice",
+    "use_the_right_material" : " It means using the right material in the right place, without trying to revolutionize construction methods",
+    "use_materials" : "Using materials in the right proportions",
+    "rich_projects" : " for projects that are rich in creativity yet frugal in energy consumption",
+    "supporting_choices" : "It's about supporting architectural choices",
+    "disappearing_sectors" : " sectors that have sometimes disappeared or been diminished by the effects of globalization",
+    "choice_of_craftwork" : " It means choosing craftsmanship",
+    "short_circuits" : "short circuits",
+    "prioritize_local_wood" : "Prioritizing the local wood industry",
+    "the_straw_industry" : " the straw industry",
+    "dry_stone" : " dry stone",
+    "the_ground" : " the ground",
+    "vegetable_fibers" : " vegetable fibers",
+    "reemployment" : " and also the re-use sector",
+    "recycling" : " and to a lesser extent the recycling sector",
+    "an_support_architect" : "An architect's companion",
+    "the_contemporary_architect" : "The contemporary architect",
+    "job_companion" : " for me, it's a job of helping people build",
+    "create_ideas" : "To put ideas into space",
+    "storytelling" : " each customer's story",
+    "coordinate_partners" : " To federate and coordinate passionate partners for each project",
+    "create_opportunities" : "To create opportunities and spaces to reflect and build a desirable future together"
+  },
+  "infos": {
+    "registered_architect" : "I'm an architect registered with the PACA Order of Architects",
+    "i_live_in_marseille" : " I live in marseille",
+    "freelance" : " and I've been self-employed since 2023",
+    "field_of_action" : "I work mainly in the Var and Bouches-du-Rhône regions",
+    "region_paca" : " Provence Alpes Côte d'Azur region",
+    "i_work_internationally" : " but I also occasionally work on projects in France and abroad",
+    "focused_on_participatory_architecture" : " My practice focuses on participatory architecture",
+    "sharing_expertise": " sharing know-how on ecological materials",
+    "in_progress" : "In progress",
+    "freelance_experience" : "Freelance experience",
+    "land_of_legends" : "land of legends",
+    "architectural_residence" : "Architectural residency / observatory construction",
+    "sainte_baume": "for PNR of the Sainte-Baume (83)",
+    "drac" : "supported by DRAC PACA, South region",
+    "festival_of_architectures" : "Festival of Architectures Vives",
+    "in_housing_with_atelier" : "in housing with Atelier TMV",
+    "conversion_of_a_diocesan_building" : "Conversion of a Diocesan building",
+    "belvédère_of_banchet_straw_pavilion" : "Belvédère of Banchet, straw pavilion",
+    "archi_nature_festival" : "for the Archi'Nature festival, Ayn-en-Savoie",
+    "visit" : "Exhibition at the City of Sciences and the industry",
+    "collective" : "with the MELT.LAB collective",
+    "experience_in_architectural_practice" : "Experience in architectural practice",
+    "project_manager_at" : "project manager at",
+    "project_assistant_at" : "project assistant at",
+    "hmonp" : "HMONP at ENSA Paris Belleville",
+    "d_e_architect" : "D.E. Architect, ENSA Lyon",
+    "erasmus" : "Erasmus at Mimar Sinan, Istanbul",
+    "bachelor" : "Bachelor of Architecture at ENSA Lyon",
+    "cursus": "Curriculum",
+    "continuous_training" : "continuous training",
+    "the_art_of_dry_stone" : "The art of dry stone",
+    "by": " by",
+    "albert_porri_at_domaine_s_rayol" : "Albert Porri at Rayol's Domain",
+    "building_with_plant_fibers" : "Building with plant fibers today",
+    "moos": " MOOC Sustainable Building"
+  },
+  "form": {
+    "name": "Surname",
+    "first_name": "Firstname",
+    "email": "Email",
+    "email_required" : "email is required",
+    "object": "Object",
+    "text": "Text",
+    "contact_me": "For any request, please contact me by email",
+    "your_name": " Your name",
+    "your_first_name" : " Your first name",
+    "your_email": " Your email",
+    "your_object": " What is the subject of this email ?",
+    "your_message": " Your message",
+    "sent" : "sent",
+    "success": "Email sent successfully !",
+    "thanks_for_your_message" : "Thank you for your message, we'll get back to you soon.",
+    "back_to_main_page": "Back to main page"
+  },
+  "footer": {
+    "about_me" : "About me",
+    "location" : "Location",
+    "architect": "architect"
+  }
+}

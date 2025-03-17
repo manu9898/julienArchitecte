@@ -1,0 +1,173 @@
+{
+  "language": {
+    "fr": "FR",
+    "en": "EN"
+  },
+  "welcome": "Bienvenue",
+  "hello": "Bonjour",
+  "navbar": {
+    "title": "JULIEN BLATTEAU ARCHITECTE",
+    "subtitle": "architecture participative, matériaux écologiques",
+    "projects": "Projets",
+    "approach": "Démarche",
+    "news" : "Infos",
+    "contact": "Contact"
+  },
+  "approach": {
+    "a_shared_asset": "Un bien commun",
+    "to_propose_meaningful_architecture": "Pour proposer une architecture porteuse de sens",
+    "involving_local_residents": "impliquer les habitants et usagers dans la conception et la construction de leurs projets",
+    "for_sustainable_construction": "Pour des constructions pérennes",
+    "thinking_about_uses": "réfléchir ensemble aux usages",
+    "implementation": "à la mise en œuvre",
+    "exploitation": "à l’exploitation",
+    "building_maintenance": " l’entretien et la vie du bâtiment",
+    "to_build_the_architectural_project": "Pour construire le projet d’architecture comme un lieu de vie commun",
+    "think_of_sharing": "penser le partage entre les hommes cohabitants",
+    "flora_fauna": " la faune et la flore",
+    "a_chance_to_share": "Une opportunité de partage",
+    "every-project" : "Chaque projet soude une équipe pluridisciplinaire",
+    "meeting": "c’est un moment de rencontre entre des pratiques et des savoir- faire",
+    "the_act_of_building" : "L’acte de bâtir peut constituer le moment fédérateur d’une communauté",
+    "mutual_support_practices" : "C’est retrouver des pratiques d’entraide",
+    "imagine_an_architectural_project": "imaginer un projet d’architecture comme une opportunité de partage et de médiation",
+    "involving_users" : "Impliquer les habitants/usagers",
+    "integrate_workshops": "c’est intégrer des ateliers de co-conception",
+    "participative_worksites" : "des chantiers participatifs",
+    "self_build_support": "de l’accompagnement à auto-construction / auto-réhabilitation",
+    "pedagogy" : " de la pédagogie",
+    "participatory_projects" : "Pour des projets engagés sur le participatif",
+    "architect_s_expertise" : "l’expertise de l’architecte se lie à des compétences de médiation et d’évènementiel",
+    "an_assembly_of_materials" : "Un assemblage de matériaux et de savoir-faire",
+    "attention_to_detail" : "L’attention au détail et la sobriété fonde ma pratique",
+    "use_the_right_material" : " C’est utiliser le bon matériau au bon endroit sans chercher à révolutionner les méthodes constructives",
+    "use_materials" : "C’est employer les matériaux dans de justes proportions",
+    "rich_projects" : " pour des projets riches en créativité mais sobre en dépense d’énergie",
+    "supporting_choices" : "C’est soutenir à travers des choix architecturaux",
+    "disappearing_sectors" : " des filières qui ont parfois disparu ou sont diminuées par les effets de la mondialisation",
+    "choice_of_craftwork" : " C’est faire le choix de l’artisanat",
+    "short_circuits" : "des circuits courts",
+    "prioritize_local_wood" : "C’est prioriser la filière bois local",
+    "the_straw_industry" : "  la filière paille",
+    "dry_stone" : " la pierre sèche",
+    "the_ground" : " la terre",
+    "vegetable_fibers" : " la fibre végétales",
+    "reemployment" : " et aussi la filière du réemploi",
+    "recycling" : " et dans une moindre mesure celle du recyclage",
+    "an_support_architect" : "Un accompagnant architecte",
+    "the_contemporary_architect" : "L’architecte contemporain",
+    "job_companion" : " c’est pour moi un métier d’accompagnant à la construction",
+    "create_ideas" : "Pour mettre en espace les idées",
+    "storytelling" : " le narratif de chaque client",
+    "coordinate_partners" : " Pour fédérer et coordonner des partenaires passionnés pour chaque projet",
+    "create_opportunities" : "Pour créer les opportunités et les espaces afin de réfléchir et construire ensemble un avenir désirable"
+  },
+  "infos": {
+    "registered_architect" : "Je suis architecte inscrit au tableau de l’Ordre PACA",
+    "i_live_in_marseille" : " Je vis à marseille",
+    "freelance" : " et j’exerce en indépendant depuis 2023",
+    "field_of_action" : " Mon terrain d’action privilégié est le Var et les Bouches-du-Rhône",
+    "region_paca" : " la région Provence Alpes Côte d’Azur",
+    "i_work_internationally" : " mais j’opère ponctuellement sur des projets en France et à l’international",
+    "focused_on_participatory_architecture" : " Ma pratique est centrée sur l’architecture participative",
+    "sharing_expertise": " le partage des savoirs-faire autour des matériaux écologiques",
+    "in_progress" : "En cours",
+    "freelance_experience" : "Expériences en tant qu’indépendant",
+    "land_of_legends" : "terre des légendes",
+    "architectural_residence" : "Résidence architecturale / construction d’observatoires",
+    "sainte_baume": "pour le PNR de la Sainte-Baume (83)",
+    "drac" : "soutien DRAC PACA, région Sud",
+    "festival_of_architectures" : "Festival des Architectures Vives",
+    "in_housing_with_atelier" : "en logements avec Atelier TMV",
+    "conversion_of_a_diocesan_building" : "Conversion d’un bâtiment du Diocèse",
+    "belvédère_of_banchet_straw_pavilion" : "Belvédère du Banchet, pavillon en paille",
+    "archi_nature_festival" : "pour le festival Archi’Nature, Ayn-en-Savoie",
+    "visit" : "Exposition à la Cité des Sciences et de l’Industrie",
+    "collective" : "avec le collectif MELT.LAB",
+    "experience_in_architectural_practice" : "Expériences en agence d’architecture",
+    "project_manager_at" : "chargé de projet chez",
+    "project_assistant_at" : "assistant de projet chez",
+    "hmonp" : "HMONP à l’ENSA Paris Belleville",
+    "d_e_architect" : "Architecte D.E. à l’ENSA Lyon",
+    "erasmus" : "Erasmus à Mimar Sinan, Istanbul",
+    "bachelor" : "License d’architecture à l’ENSA Lyon",
+    "cursus": "Cursus",
+    "continuous_training" : "Formation continue",
+    "the_art_of_dry_stone" : "L’art de la pierre sèche",
+    "by" : " par",
+    "albert_porri_at_domaine_s_rayol" : "Albert Porri au domaine de Rayol",
+    "building_with_plant_fibers" : "Construire en fibres végétales aujourd’hui",
+    "moos": " MOOC Bâtiment Durable"
+  },
+  "form": {
+    "name": "Nom",
+    "first_name": "Prénom",
+    "email": "Email",
+    "email_required": "Votre email est requis",
+    "object": "Objet",
+    "text": "Texte",
+    "contact_me": "Pour toute demande, veuillez me contacter par email",
+    "your_name" : "Votre nom",
+    "your_first_name": "Votre prénom",
+    "your_email" : "Votre email",
+    "your_object": "Quel est l'objet de cet email ?",
+    "your_message": "Votre message",
+    "sent" : "envoyer",
+    "success" : "Email envoyé avec succès !",
+    "thanks_for_your_message" : "Merci pour votre message, nous vous répondrons bientôt.",
+    "back_to_main_page": "Retour à la page principale"
+
+  },
+  "footer": {
+    "about_me": "À propos",
+    "location": "Localisation",
+    "architect": "architecte"
+  },
+  "Error": {
+    "description": "<p>Nous avons malheureusement rencontré une erreur.</p><p>Vous pouvez essayer de <retry>recharger la page</réessayer> que vous visitiez.</p> »",
+    "title": "Quelque chose n'a pas fonctionné !"
+  },
+  "IndexPage": {
+    "description": "Ceci est un exemple basique qui démontre l'utilisation de <code>next-intl</code> avec le Next.js App Router. Essayez de changer la locale dans le coin supérieur droit et voyez comment le contenu change",
+    "title": "exemple next-intl"
+  },
+  "LocaleLayout": {
+    "title": "exemple next-intl"
+  },
+  "LocaleSwitcher": {
+    "label": "Changement de language",
+    "locale": "{locale, select, fr {\uD83C\uDDEB\uD83C\uDDF7 Français} en {🇺🇸 English} other {autres}}"
+  },
+  "Manifest": {
+    "name": "next next-intl"
+  },
+  "Navigation": {
+    "home": "Accueil",
+    "pathnames": "Chemin",
+    "projects" : "Projets",
+    "Presentation": "Présentation",
+    "Contact": "contact"
+  },
+  "NotFoundPage": {
+    "description": "Veuillez vérifier la barre d'adresse du navigateur ou utiliser la navigation pour accéder à une page connue.",
+    "title": "Page non trouvée"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "description": "En savoir plus sur next-intl dans la documentation officielle.",
+        "href": "https://next-intl.dev",
+        "title": "Documentation"
+      },
+      "source": {
+        "description": "Consultez le code source de cet exemple sur GitHub.",
+        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
+        "title": "Source code"
+      }
+    }
+  },
+  "PathnamesPage": {
+    "description": "<p>Les noms de chemin sont également internationalisés.</p><p>Si vous utilisez la langue Française par défaut, vous verrez <code>/fr/chemin</code> dans la barre d'adresse du navigateur sur cette page.</p><p>Si vous changez la locale en Anglais, l'URL est localisée en conséquence (<code>/en/pfadnamen</code>).</p>",
+    "title": "Chemin"
+  }
+}
