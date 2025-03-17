@@ -12,7 +12,7 @@ export default function Footer () {
                 {/* Premier bloc de texte */}
                 <span className="text-sm text-neutral-600 sm:text-center mb-4 sm:mb-0">
                     © 2023
-                    <a href="https://flowbite.com/" className="hover:underline">Copyright™</a>.
+                    <Link href={`/${locale}/copyright`}  className="hover:underline me-4 md:me-6 pl-2">Copyright</Link>
                     Julien Blatteau | {t("footer.architect")} | Marseille.
                 </span>
 
