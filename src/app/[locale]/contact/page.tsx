@@ -29,7 +29,7 @@ export default function Contact()  {
     const router = useRouter();
 
     const handleReturnToMain = () => {
-        router.push("/"); // Redirige vers la page d'accueil
+        router.push("/");
     };
 
 

@@ -7,6 +7,11 @@ export async function sendEmail(formData){
 
 
     const { name, firstname, email, subject, message } = formData;
+    if(!subject || !name || !firstname || !email || !message){
+        return {
+            error: 'formulaire incomplet',
+        }
+    }
     try {
 
 
@@ -27,7 +32,8 @@ export async function sendEmail(formData){
         };
 
         // Envoi de l'email
-        await transporter.sendMail(mailOptions);
+       await transporter.sendMail(mailOptions);
+        console.log(mailOptions);
 
 
     } catch (error) {
