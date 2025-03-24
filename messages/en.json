@@ -161,6 +161,7 @@
     "your_object": " What is the subject of this email ?",
     "your_message": " Your message",
     "sent" : "sent",
+    "sending": "sending in progress...",
     "success": "Email sent successfully !",
     "thanks_for_your_message" : "Thank you for your message, we'll get back to you soon.",
     "back_to_main_page": "Back to main page"

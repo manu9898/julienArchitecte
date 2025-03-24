@@ -113,6 +113,7 @@
     "your_object": "Quel est l'objet de cet email ?",
     "your_message": "Votre message",
     "sent" : "envoyer",
+    "sending": "Envoi en cours...",
     "success" : "Email envoyé avec succès !",
     "thanks_for_your_message" : "Merci pour votre message, nous vous répondrons bientôt.",
     "back_to_main_page": "Retour à la page principale"

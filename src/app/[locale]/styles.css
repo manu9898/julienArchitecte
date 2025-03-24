@@ -1,29 +1,26 @@
-@import "@fortawesome/fontawesome-free/css/all.min.css";
+@import '@fortawesome/fontawesome-free/css/all.min.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-
 .carousel-container {
-    width: 80%;
-    margin: 0 auto;
-    background-color: red;
+  width: 80%;
+  margin: 0 auto;
+  background-color: red;
 }
 
 .mySwiper img {
-    width: 100%;
-    height: auto;
-    object-fit: contain; /* Assure que les images s'adaptent sans déformation */
+  width: 100%;
+  height: auto;
+  object-fit: contain; /* Assure que les images s'adaptent sans déformation */
 }
 
-.hello{
-    height: 50vh!important;
-    width: 100%;
+.hello {
+  height: 50vh !important;
+  width: 100%;
 }
 
 .mySwiper .swiper-slide {
-    margin-left: 0!important;
-    margin-right: 0!important;
-
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }

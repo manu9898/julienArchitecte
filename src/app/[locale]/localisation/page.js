@@ -1,9 +1,9 @@
 'use client';
-import React, { useEffect, useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import dynamic from 'next/dynamic';
 
 const MapComponent = dynamic(() => import('./MapComponent'), {
-  ssr: false, // Désactiver SSR pour le composant MapComponent
+  ssr: false // Désactiver SSR pour le composant MapComponent
 });
 
 export default function LocalisationPage() {
