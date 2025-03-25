@@ -26,7 +26,7 @@ export default function Home() {
       {activeCarousel && (
         <Modal onLeave={() => setActiveCarousel(null)}>
           <div className="lg:w-1/2 md:w-1/2 sm:w-1/2 w-2/3 mx-auto mt-10 mb-10">
-            <Carousel images={carouselImages} />
+            <Carousel assets={carouselImages} />
           </div>
         </Modal>
       )}

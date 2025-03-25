@@ -6,17 +6,19 @@ import 'swiper/css/pagination';
 import {EffectCoverflow, Pagination} from 'swiper/modules';
 import Image from 'next/image';
 import 'swiper/swiper-bundle.css';
+import VideoComponent from '@/components/ui/VideoComponent';
 
-type Image = {
+export type AssetType = {
   src: string;
   alt: string;
+  type: "Image" | "Video"
 };
 
 // Typage des props de Carousel
 type CarouselProps = {
-  images: Image[]; // Un tableau d'objets Image
+  assets: AssetType[]; // Un tableau d'objets Image
 };
-const Carousel = ({images}: CarouselProps) => {
+const Carousel = ({assets}: CarouselProps) => {
   return (
     <Swiper
       effect="coverflow"
@@ -34,15 +36,19 @@ const Carousel = ({images}: CarouselProps) => {
       modules={[EffectCoverflow, Pagination]}
       className="mySwiper"
     >
-      {images.map((image, index: number) => (
+      {assets.map((asset, index: number) => (
         <SwiperSlide key={index}>
-          <Image
-            className="object-cover mx-auto"
-            src={image.src}
-            alt={image.alt}
-            width={800}
-            height={600}
-          />
+          {asset.type === "Image" ? (
+            <Image
+              className="object-cover mx-auto"
+              src={asset.src}
+              alt={asset.alt}
+              width={800}
+              height={600}
+            />
+          ) : (
+            <VideoComponent src={asset.src} alt={asset.alt}></VideoComponent>
+          ) }
         </SwiperSlide>
       ))}
     </Swiper>
