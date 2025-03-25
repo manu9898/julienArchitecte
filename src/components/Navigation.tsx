@@ -78,7 +78,7 @@ export const NavBar = () => {
           {/* Liens Projet/Présentation/Contact à droite en colonne */}
           <div className="hidden lg:flex flex-col items-center pt-8">
             <Link
-              href="/public"
+              href={`/${locale}/`}
               className="text-md font-extrabold hover:text-gray-500 italic"
             >
               {t('navbar.projects')}
@@ -123,7 +123,7 @@ export const NavBar = () => {
             {t('language.en')}
           </button>
           <Link
-            href="/public"
+            href={`/${locale}/`}
             className="text-md font-extrabold hover:text-gray-500 italic"
           >
             {t('navbar.projects')}
