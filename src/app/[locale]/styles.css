@@ -24,3 +24,21 @@
   margin-left: 0 !important;
   margin-right: 0 !important;
 }
+
+.swiper-button-prev , .swiper-button-next{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+.swiper-button-prev {
+  left: 10px;  /* Ajuster la distance du bord gauche */
+}
+
+/* Flèche droite (collée à droite de la modal) */
+.swiper-button-next {
+  right: 10px;  /* Ajuster la distance du bord droit */
+}

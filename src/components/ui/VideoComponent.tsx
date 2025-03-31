@@ -9,7 +9,13 @@ type VideoProps = {
 
 const VideoComponent: React.FC<VideoProps> = ({ src, alt }) => {
   return (
-    <video controls width="800" height="600">
+    <video
+      className="object-cover mx-auto"
+      controls
+      width="800"
+      height="600"
+      aria-label={alt}
+    >
       <source src={src} type="video/mp4" />
       {alt}
     </video>

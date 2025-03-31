@@ -1,6 +1,6 @@
 'use client';
 
-import React, {useState} from 'react';
+import React, {useState, useRef} from 'react';
 import useHomePageCarouselsImages from '../../hooks/useHomePageCarouselsImages';
 import {PicturesHomePage} from '../../../components/ui/picturesHomePage';
 import Modal from '../../../components/ui/modal';
@@ -16,6 +16,7 @@ export default function Home() {
     activeCarousel ?? 'cycloide'
   );
 
+  const swiperRef = useRef(null);
   return (
     <section
       style={{minHeight: 'calc(100vh - 168px)'}}
@@ -24,9 +25,9 @@ export default function Home() {
       <PicturesHomePage onPictureClick={setActiveCarousel} />
 
       {activeCarousel && (
-        <Modal onLeave={() => setActiveCarousel(null)}>
+        <Modal onLeave={() => setActiveCarousel(null)} swiperRef={swiperRef}>
           <div className="lg:w-1/2 md:w-1/2 sm:w-1/2 w-2/3 mx-auto mt-10 mb-10">
-            <Carousel assets={carouselImages} />
+            <Carousel assets={carouselImages} swiperRef={swiperRef} />
           </div>
         </Modal>
       )}

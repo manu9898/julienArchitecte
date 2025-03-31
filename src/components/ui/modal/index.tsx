@@ -1,15 +1,15 @@
-import {useCallback, useEffect, useRef} from 'react';
+import { useCallback, useEffect, useRef } from 'react';
 import React from 'react';
+import { GoArrowLeft, GoArrowRight } from 'react-icons/go';
 
-import 'swiper/css';
-import 'swiper/css/effect-coverflow';
-import 'swiper/css/pagination';
 
 type ModalProps = {
-  children: React.ReactNode; // Contenu de la modal (peut être n'importe quel élément React)
-  onLeave: () => void; // Fonction appelée lorsqu'on quitte la modal
+  children: React.ReactNode;
+  onLeave: () => void;
+  swiperRef: React.RefObject<any>; // Référence du Swiper
 };
-const Modal = ({children, onLeave}: ModalProps) => {
+
+const Modal = ({ children, onLeave, swiperRef }: ModalProps) => {
   const modalRef = useRef<HTMLDivElement | null>(null);
 
   const handleClickOutside = useCallback(
@@ -43,6 +43,18 @@ const Modal = ({children, onLeave}: ModalProps) => {
     };
   }, [handleClickOutside, handleEscapeKey]);
 
+  const goToPrevious = () => {
+    if (swiperRef.current && swiperRef.current.swiper) {
+      swiperRef.current.swiper.slidePrev(); // Aller à l'image précédente
+    }
+  };
+
+  const goToNext = () => {
+    if (swiperRef.current && swiperRef.current.swiper) {
+      swiperRef.current.swiper.slideNext(); // Aller à l'image suivante
+    }
+  };
+
   return (
     <div
       className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center z-50"
@@ -50,7 +62,7 @@ const Modal = ({children, onLeave}: ModalProps) => {
     >
       <div
         ref={modalRef}
-        onClick={(e) => e.stopPropagation()} // Empêche la propagation pour ne pas fermer le carousel
+        onClick={(e) => e.stopPropagation()}
         className="relative lg:w-[50%] flex items-center justify-center bg-white rounded-md shadow-lg"
       >
         {/* Bouton de fermeture */}
@@ -60,6 +72,23 @@ const Modal = ({children, onLeave}: ModalProps) => {
         >
           &#10005; {/* Unicode pour un "x" */}
         </button>
+
+        {/* Flèches de navigation */}
+        <button
+          onClick={goToPrevious}
+          className="absolute left-0 top-1/2 transform -translate-y-1/2 text-lightgray text-4xl p-2 focus:outline-none"
+        >
+          <GoArrowLeft className="text-gray-400" />
+        </button>
+
+        <button
+          onClick={goToNext}
+          className="absolute right-0 top-1/2 transform -translate-y-1/2 text-lightgray text-4xl p-2 focus:outline-none"
+        >
+          <GoArrowRight className="text-gray-400" />
+        </button>
+
+        {/* Le Carousel */}
         {children}
       </div>
     </div>

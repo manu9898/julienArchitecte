@@ -1,9 +1,9 @@
-import React from 'react';
-import {Swiper, SwiperSlide} from 'swiper/react';
+import React, { useRef } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
-import {EffectCoverflow, Pagination} from 'swiper/modules';
+import { EffectCoverflow, Pagination } from 'swiper/modules';
 import Image from 'next/image';
 import 'swiper/swiper-bundle.css';
 import VideoComponent from '@/components/ui/VideoComponent';
@@ -11,16 +11,18 @@ import VideoComponent from '@/components/ui/VideoComponent';
 export type AssetType = {
   src: string;
   alt: string;
-  type: "Image" | "Video"
+  type: 'Image' | 'Video';
 };
 
-// Typage des props de Carousel
 type CarouselProps = {
-  assets: AssetType[]; // Un tableau d'objets Image
+  assets: AssetType[];
+  swiperRef: React.RefObject<any>; // Référence du Swiper
 };
-const Carousel = ({assets}: CarouselProps) => {
+
+const Carousel = ({ assets, swiperRef }: CarouselProps) => {
   return (
     <Swiper
+      ref={swiperRef} // Associer la référence à Swiper
       effect="coverflow"
       grabCursor={true}
       centeredSlides={true}
@@ -30,15 +32,15 @@ const Carousel = ({assets}: CarouselProps) => {
         stretch: 0,
         depth: 100,
         modifier: 1,
-        slideShadows: true
+        slideShadows: true,
       }}
-      pagination={{clickable: true}}
+      pagination={{ clickable: true }}
       modules={[EffectCoverflow, Pagination]}
       className="mySwiper"
     >
-      {assets.map((asset, index: number) => (
+      {assets.map((asset: AssetType, index: number) => (
         <SwiperSlide key={index}>
-          {asset.type === "Image" ? (
+          {asset.type === 'Image' ? (
             <Image
               className="object-cover mx-auto"
               src={asset.src}
@@ -48,7 +50,7 @@ const Carousel = ({assets}: CarouselProps) => {
             />
           ) : (
             <VideoComponent src={asset.src} alt={asset.alt}></VideoComponent>
-          ) }
+          )}
         </SwiperSlide>
       ))}
     </Swiper>
