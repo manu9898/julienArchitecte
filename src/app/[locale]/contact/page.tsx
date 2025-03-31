@@ -70,7 +70,7 @@ export default function Contact() {
           </label>
           <input
             {...register('name', { required: true, maxLength: 20 })}
-            className="rounded-xl"
+            className="rounded-xl pl-2"
             type="text"
             id="name"
             placeholder={t('form.your_name')}
@@ -83,7 +83,7 @@ export default function Contact() {
           </label>
           <input
             {...register('firstname', { pattern: /^[A-Za-z]+$/i })}
-            className="rounded-xl"
+            className="rounded-xl pl-2"
             type="text"
             id="firstname"
             placeholder={t('form.your_first_name')}
@@ -96,7 +96,7 @@ export default function Contact() {
           </label>
           <input
             {...register('email', { required: true })}
-            className="rounded-xl"
+            className="rounded-xl  pl-2"
             type="email"
             id="email"
             placeholder={t('form.your_email')}
@@ -112,7 +112,7 @@ export default function Contact() {
           </label>
           <input
             {...register('subject')}
-            className="rounded-xl"
+            className="rounded-xl pl-2"
             type="text"
             placeholder={t('form.your_object')}
             disabled={emailSent} // Désactive le champ après envoi
@@ -125,7 +125,7 @@ export default function Contact() {
           <textarea
             {...register('message')}
             rows={10}
-            className="rounded-xl"
+            className="rounded-xl pl-2"
             placeholder={t('form.your_message')}
             disabled={emailSent} // Désactive le champ après envoi
           />
