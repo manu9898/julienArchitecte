@@ -76,6 +76,11 @@ const getConfig = (locale: string): ConfigType => {
         alt:"video Terre des Légendes"
       },
       {
+        type: "Video",
+        src: "/assets/TerreDeLegendes_03_video.mp4",
+        alt:"video Terre des Légendes"
+      },
+      {
         type: "Image",
         src: '/assets/pictures/diapoTerreDesLegendes/TerreDeLegende_02_FR.jpg',
         alt: "Architecture Provence-alpes-cote-d'azur"
