@@ -2,11 +2,10 @@ import { useCallback, useEffect, useRef } from 'react';
 import React from 'react';
 import { GoArrowLeft, GoArrowRight } from 'react-icons/go';
 
-
 type ModalProps = {
   children: React.ReactNode;
   onLeave: () => void;
-  swiperRef: React.RefObject<any>; // Référence du Swiper
+  swiperRef?: React.RefObject<any>; // Référence du Swiper
 };
 
 const Modal = ({ children, onLeave, swiperRef }: ModalProps) => {
@@ -44,14 +43,14 @@ const Modal = ({ children, onLeave, swiperRef }: ModalProps) => {
   }, [handleClickOutside, handleEscapeKey]);
 
   const goToPrevious = () => {
-    if (swiperRef.current && swiperRef.current.swiper) {
-      swiperRef.current.swiper.slidePrev(); // Aller à l'image précédente
+    if (swiperRef?.current?.swiper) {
+      swiperRef.current.swiper.slidePrev();
     }
   };
 
   const goToNext = () => {
-    if (swiperRef.current && swiperRef.current.swiper) {
-      swiperRef.current.swiper.slideNext(); // Aller à l'image suivante
+    if (swiperRef?.current?.swiper) {
+      swiperRef.current.swiper.slideNext();
     }
   };
 
@@ -70,22 +69,22 @@ const Modal = ({ children, onLeave, swiperRef }: ModalProps) => {
           onClick={() => onLeave()}
           className="absolute top-2 right-2 text-gray-500 hover:text-gray-800 focus:outline-none"
         >
-          &#10005; {/* Unicode pour un "x" */}
+          &#10005;
         </button>
 
         {/* Flèches de navigation */}
         <button
           onClick={goToPrevious}
-          className="absolute left-0 top-1/2 transform -translate-y-1/2 text-lightgray text-4xl p-2 focus:outline-none"
+          className="absolute left-2 top-1/2 transform -translate-y-1/2 text-gray-300 text-4xl p-2 focus:outline-none"
         >
-          <GoArrowLeft className="text-gray-400" />
+          <GoArrowLeft />
         </button>
 
         <button
           onClick={goToNext}
-          className="absolute right-0 top-1/2 transform -translate-y-1/2 text-lightgray text-4xl p-2 focus:outline-none"
+          className="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-300 text-4xl p-2 focus:outline-none"
         >
-          <GoArrowRight className="text-gray-400" />
+          <GoArrowRight />
         </button>
 
         {/* Le Carousel */}

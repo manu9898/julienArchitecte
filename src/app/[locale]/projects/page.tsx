@@ -2,7 +2,7 @@
 
 import React, {useState, useRef} from 'react';
 import useHomePageCarouselsImages from '../../hooks/useHomePageCarouselsImages';
-import {PicturesHomePage} from '../../../components/ui/picturesHomePage';
+import {PicturesHomePage} from '@/components/ui/picturesHomePage';
 import Modal from '../../../components/ui/modal';
 import Carousel from '../../../components/ui/carousel'; // Pour récupérer la langue dans les cookies
 
