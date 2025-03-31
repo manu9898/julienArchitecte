@@ -130,10 +130,10 @@
   },
   "IndexPage": {
     "description": "Ceci est un exemple basique qui démontre l'utilisation de <code>next-intl</code> avec le Next.js App Router. Essayez de changer la locale dans le coin supérieur droit et voyez comment le contenu change",
-    "title": "exemple next-intl"
+    "title": "Julien Blatteau Architecte"
   },
   "LocaleLayout": {
-    "title": "exemple next-intl"
+    "title": "Julien Blatteau Architecte"
   },
   "LocaleSwitcher": {
     "label": "Changement de language",
