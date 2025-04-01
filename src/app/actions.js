@@ -21,8 +21,8 @@ export async function sendEmail(formData) {
     const mailOptions = {
       from: `${firstname} ${name} <${email}>`,
       to: `${process.env.EMAIL_RECEIVER}`, // L'adresse email du destinataire
-      subject: subject || 'Contact depuis le site',
-      text: `Nom : ${name}\nPrénom : ${firstname}\nEmail : ${email}\nMessage : ${message}`
+      subject: `[contact] ${subject}`,
+      text: message
     };
 
     // Envoi de l'email
