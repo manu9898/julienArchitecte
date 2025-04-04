@@ -82,11 +82,6 @@ const getConfig = (locale: string): ConfigType => {
       },
       {
         type: "Image",
-        src: '/assets/pictures/diapoTerreDesLegendes/TerreDeLegende_02_FR.jpg',
-        alt: "Architecture Provence-alpes-cote-d'azur"
-      },
-      {
-        type: "Image",
         src: '/assets/pictures/diapoTerreDesLegendes/TerreDeLegende_06.jpg',
         alt: "Architecture Provence-alpes-cote-d'azur"
       },

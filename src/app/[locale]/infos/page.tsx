@@ -10,8 +10,8 @@ export default function Presentation() {
       <div className="flex justify-center w-full items-stretch gap-20 flex-wrap mb-20">
         <div className="2xl:w-1/2 max-w-[500px] flex flex-col justify-between">
           <div className="bg-white z-10 flex flex-col justify-between h-full p-10 rounded-none sm:rounded-3xl">
-            <h2 className="underline pb-10">Julien Blatteau</h2>
-            <p className="max-w-[500px] text-xl leading-8 flex-grow">
+            <h2 className="underline pb-10 text-base">Julien Blatteau</h2>
+            <p className="max-w-[500px]  leading-8 flex-grow text-base">
               {t('infos.registered_architect')}.{t('infos.i_live_in_marseille')}
               ,{t('infos.freelance')}.{t('infos.field_of_action')},
               {t('infos.region_paca')},{t('infos.i_work_internationally')}.{' '}

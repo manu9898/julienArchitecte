@@ -9,16 +9,14 @@ export default function Presentation() {
   return (
     <section className=" my-10">
       <div className="mx-5 md:mx-20">
-        <h1 className="italic text-3xl font-bold mb-10 lg:mb-0">
-          {t('navbar.approach')}
-        </h1>
+
 
         <div className="flex flex-wrap flex-col-reverse 2xl:flex-row">
           <div className="w-full 2xl:w-1/2 min-w-0 flex flex-col justify-center">
-            <h2 className="text-md bg-white rounded-xl py-1 px-1.5 underline mb-4 m-0 w-auto max-w-fit">
+            <h2 className="text-md bg-white rounded-xl py-1 px-1.5 underline mb-4 m-0 w-auto max-w-fit text-base">
               {t('approach.a_shared_asset')}
             </h2>
-            <p className="2xl:w-full text-xl leading-10 flex items-center md:text-center lg:text-left">
+            <p className="2xl:w-full leading-10 flex items-center md:text-center lg:text-left text-base">
               {t('approach.to_propose_meaningful_architecture')},{' '}
               {t('approach.involving_local_residents')} . <br />
               {t('approach.for_sustainable_construction')},{' '}
@@ -64,10 +62,10 @@ export default function Presentation() {
           </div>
 
           <div className="w-full 2xl:w-1/2 min-w-0 flex flex-col justify-center ">
-            <h2 className="text-md bg-white rounded-xl py-1 px-1.5 underline mb-4 m-0 w-auto max-w-fit">
+            <h2 className="text-md bg-white rounded-xl py-1 px-1.5 underline mb-4 m-0 w-auto max-w-fit text-base">
               {t('approach.a_chance_to_share')}
             </h2>
-            <p className="2xl:w-full text-xl leading-10 flex items-center md:text-center lg:text-justify">
+            <p className="2xl:w-full text-xl leading-10 flex items-center md:text-center lg:text-justify text-base">
               {t('approach.every-project')} : {t('approach.meeting')} . <br />
               {t('approach.the_act_of_building')} .{' '}
               {t('approach.mutual_support_practices')},
@@ -86,10 +84,10 @@ export default function Presentation() {
         <div className="flex flex-wrap flex-col-reverse 2xl:flex-row pt-10">
           {/* Texte */}
           <div className="w-full 2xl:w-1/2 min-w-0 flex flex-col justify-center">
-            <h2 className="text-md bg-white rounded-xl py-1 px-1.5 underline mb-4 m-0 w-auto max-w-fit">
+            <h2 className="text-md bg-white rounded-xl py-1 px-1.5 underline mb-4 m-0 w-auto max-w-fit text-base">
               {t('approach.an_assembly_of_materials')}
             </h2>
-            <p className="2xl:w-full text-xl leading-10 flex items-center md:text-center lg:text-left">
+            <p className="2xl:w-full leading-10 flex items-center md:text-center lg:text-left text-base">
               {t('approach.attention_to_detail')}.
               {t('approach.use_the_right_material')}. <br />
               {t('approach.use_materials')},{t('approach.rich_projects')}.{' '}
@@ -131,10 +129,10 @@ export default function Presentation() {
           </div>
 
           <div className="w-full 2xl:w-1/2 min-w-0 flex flex-col justify-center">
-            <h2 className="text-md bg-white rounded-xl py-1 px-1.5 underline mb-4 m-0 w-auto max-w-fit">
+            <h2 className="text-md bg-white rounded-xl py-1 px-1.5 underline mb-4 m-0 w-auto max-w-fit text-base">
               {t('approach.an_support_architect')}
             </h2>
-            <p className="2xl:w-full text-xl leading-10 flex items-center md:text-center lg:text-justify">
+            <p className="2xl:w-full leading-10 flex items-center md:text-center lg:text-justify text-base">
               {t('approach.the_contemporary_architect')},
               {t('approach.job_companion')}. <br />
               {t('approach.create_ideas')}, {t('approach.storytelling')}.
