@@ -18,9 +18,9 @@ const getConfig = (locale: string): ConfigType => {
       {
         type: "Image",
         src:
-          locale === 'en'
+          locale === 'fr'
             ? '/assets/pictures/diapoHay/HAY_02_FR.jpg'
-            : '/assets/pictures/diapoHay/HAY_02_FR.jpg',
+            : '/assets/pictures/diapoHay/HAY_02_EN.jpg',
         alt:
           locale === 'en'
             ? 'Participatory architecture, ecological materials'
@@ -62,9 +62,9 @@ const getConfig = (locale: string): ConfigType => {
       {
         type: "Image",
         src:
-          locale === 'en'
+          locale === 'fr'
             ? '/assets/pictures/diapoTerreDesLegendes/TerreDeLegende_02_FR.jpg'
-            : '/assets/pictures/diapoTerreDesLegendes/TerreDeLegende_02_FR.jpg',
+            : '/assets/pictures/diapoTerreDesLegendes/TerreDeLegende_02_EN.jpg',
         alt:
           locale === 'en'
             ? 'Participatory architecture, ecological materials'
@@ -94,7 +94,57 @@ const getConfig = (locale: string): ConfigType => {
         type: "Image",
         src: '/assets/pictures/diapoTerreDesLegendes/TerreDeLegende_09.jpg',
         alt: "Architecture Provence-alpes-cote-d'azur"
-      }
+      },
+      {
+        type: "Image",
+        src: '/assets/pictures/diapoTerreDesLegendes/TerreDeLegende_10.jpg',
+        alt: "Architecture Provence-alpes-cote-d'azur"
+      },
+      {
+        type: "Image",
+        src: '/assets/pictures/diapoTerreDesLegendes/TerreDeLegende_11.jpg',
+        alt: "Architecture Provence-alpes-cote-d'azur"
+      },
+      {
+        type: "Image",
+        src: '/assets/pictures/diapoTerreDesLegendes/TerreDeLegende_12.jpg',
+        alt: "Architecture Provence-alpes-cote-d'azur"
+      },
+      {
+        type: "Image",
+        src: '/assets/pictures/diapoTerreDesLegendes/TerreDeLegende_13.jpg',
+        alt: "Architecture Provence-alpes-cote-d'azur"
+      },
+      {
+        type: "Image",
+        src: '/assets/pictures/diapoTerreDesLegendes/TerreDeLegende_14.jpg',
+        alt: "Architecture Provence-alpes-cote-d'azur"
+      },
+      {
+        type: "Image",
+        src: '/assets/pictures/diapoTerreDesLegendes/TerreDeLegende_15.jpg',
+        alt: "Architecture Provence-alpes-cote-d'azur"
+      },
+      {
+        type: "Image",
+        src: '/assets/pictures/diapoTerreDesLegendes/TerreDeLegende_16.jpg',
+        alt: "Architecture Provence-alpes-cote-d'azur"
+      },
+      {
+        type: "Image",
+        src: '/assets/pictures/diapoTerreDesLegendes/TerreDeLegende_17.jpg',
+        alt: "Architecture Provence-alpes-cote-d'azur"
+      },
+      {
+        type: "Image",
+        src: '/assets/pictures/diapoTerreDesLegendes/TerreDeLegende_18.jpg',
+        alt: "Architecture Provence-alpes-cote-d'azur"
+      },
+      {
+        type: "Image",
+        src: '/assets/pictures/diapoTerreDesLegendes/TerreDeLegende_19.jpg',
+        alt: "Architecture Provence-alpes-cote-d'azur"
+      },
     ],
     cycloide: [
       {
@@ -183,9 +233,9 @@ const getConfig = (locale: string): ConfigType => {
       {
         type: "Image",
         src:
-          locale === 'en'
+          locale === 'fr'
             ? '/assets/pictures/diapoLeu/leu_02_FR.jpg'
-            : '/assets/pictures/diapoLeu/leu_02_FR.jpg',
+            : '/assets/pictures/diapoLeu/leu_02_EN.jpg',
         alt:
           locale === 'en'
             ? 'Participatory architecture, ecological materials'
